@@ -14,8 +14,7 @@ Tämän harjoituksen jälkeen osaat:
 ## Hyödyllisiä linkkejä
 
 ### Wiki-materiaalit
-- [Yksikkötestaus - Teoria](https://github.com/xamk-mire/Xamk-wiki/blob/main/C%23/fin/04-Advanced/Unit-Testing.md)
-- [Yksikkötestaus - Esimerkit](https://github.com/xamk-mire/Xamk-wiki/blob/main/C%23/fin/04-Advanced/Unit-Testing-Examples.md)
+- [Yksikkötestaus - Teoria](https://github.com/xamk-mire/Xamk-wiki/tree/main/C%23/fin/04-Advanced/UnitTesting)
 
 ### Ulkoiset resurssit
 - [xUnit dokumentaatio](https://xunit.net/)
