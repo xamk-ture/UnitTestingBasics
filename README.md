@@ -26,7 +26,7 @@ Tämän harjoituksen jälkeen osaat:
 ## Palauttaminen
 
 Palauta:
-1. Kaikki muutokset pushattu repoon, kysyykset myös
+1. Kaikki koodimuutokset pushattu repoon, ja kysymyksiin vastattu
 
 **Varmista että:**
 - ✅ Kaikki testit menevät läpi: `dotnet test`
