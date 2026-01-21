@@ -13,10 +13,10 @@ Tämän harjoituksen jälkeen osaat:
 
 ## Tehtävän rakenne
 
-### OSA 1: Kirjoita testit valmiille koodille (60 min)
+### OSA 1: Kirjoita testit valmiille koodille 
 Projektit ja koodi on jo valmiina. Sinun tehtäväsi on kirjoittaa kattavat testit `Calculator`- ja `StringHelper`-luokille.
 
-### OSA 2: TDD - Luo oma projekti (90 min)
+### OSA 2: TDD - Luo oma projekti 
 Luot itse uuden `ArrayHelper`-projektin samaan solutioniin ja toteutat sen täysin TDD-menetelmällä (testit ensin, sitten koodi).
 
 ---
