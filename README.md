@@ -445,11 +445,10 @@ if (numbers == null || numbers.Length == 0)
 
 ---
 
-## OSA 3: Teoria ja dokumentointi (30 min)
+## OSA 3: Teoria ja dokumentointi 
 
 Vastaa kysymyksiin tiedostossa [Questions.md](Questions.md).
 
-Luo uusi tiedosto `MyAnswers.md` tähän samaan kansioon ja vastaa kysymyksiin.
 
 ---
 
