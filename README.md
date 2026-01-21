@@ -11,6 +11,61 @@ Tämän harjoituksen jälkeen osaat:
 - Käyttää AAA-mallia (Arrange-Act-Assert)
 - Testata eri skenaarioita (normaalit tapaukset, rajatapaukset, virhetilanteet)
 
+## Hyödyllisiä linkkejä
+
+### Wiki-materiaalit
+- [Yksikkötestaus - Teoria](../../C%23/fin/04-Advanced/Unit-Testing.md)
+- [Yksikkötestaus - Esimerkit](../../C%23/fin/04-Advanced/Unit-Testing-Examples.md)
+
+### Ulkoiset resurssit
+- [xUnit dokumentaatio](https://xunit.net/)
+- [Microsoft: Unit testing](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
+
+---
+
+## Palauttaminen
+
+Palauta:
+1. Kaikki muutokset pushattu repoon, kysyykset myös
+
+**Varmista että:**
+- ✅ Kaikki testit menevät läpi: `dotnet test`
+- ✅ Olet vastannut teoriakysymyksiin
+- ✅ Koodi on siistiä ja kommentoitua
+
+---
+
+## Arviointiperusteet
+
+### Hyväksytty 
+- ✅ OSA 1: Calculator-testit kirjoitettu (vähintään 15 testiä)
+- ✅ Testit menevät läpi
+- ✅ Teoriakysymyksiin vastattu
+
+### Hyvä 
+- ✅ OSA 1: Calculator ja StringHelper testit (vähintään 30 testiä)
+- ✅ OSA 2: ArrayHelper-projekti luotu ja aloitettu (vähintään 3 metodia)
+- ✅ Kattavat testit (normaalit + rajatapaukset)
+- ✅ Hyvät vastaukset teoriakysymyksiin
+
+### Kiitettävä 
+- ✅ OSA 1: Kaikki testit toteutettu kattavasti (38+ testiä)
+- ✅ OSA 2: ArrayHelper toteutettu täysin TDD:llä (kaikki 9 metodia)
+- ✅ Erinomaiset testit kaikille (normaalit + rajat + virheet)
+- ✅ Koodi on siistiä ja hyvin dokumentoitua
+- ✅ Erinomaiset vastaukset teoriakysymyksiin
+- ✅ Käytetty `[Theory]` ja `[InlineData]`
+
+---
+
+
+## Tuki ja kysymykset
+
+Jos tarvitset apua:
+1. Tarkista ensin wiki-materiaalit
+2. Googlaa virheilmoituksia
+3. Kysy luokkakavereilta tai opettajalta
+
 ## Tehtävän rakenne
 
 ### OSA 1: Kirjoita testit valmiille koodille 
@@ -499,7 +554,7 @@ Assert.Empty(collection);                // Tyhjä kokoelma
 Assert.Contains(item, collection);       // Sisältää
 ```
 
-### Theory ja InlineData (valinnainen)
+### Theory ja InlineData 
 
 Jos haluat testata samaa asiaa monilla syötteillä:
 
@@ -523,59 +578,6 @@ public void Add_VariousInputs_ReturnsSum(int a, int b, int expected)
 
 ---
 
-## Palauttaminen
 
-Palauta:
-1. Koko `UnitTestingBasics`-kansio (zip-pakattuna)
-2. `MyAnswers.md` tiedosto
-
-**Varmista että:**
-- ✅ Kaikki testit menevät läpi: `dotnet test`
-- ✅ Olet vastannut teoriakysymyksiin
-- ✅ Koodi on siistiä ja kommentoitua
-
----
-
-## Arviointiperusteet
-
-### Hyväksytty 
-- ✅ OSA 1: Calculator-testit kirjoitettu (vähintään 15 testiä)
-- ✅ Testit menevät läpi
-- ✅ Teoriakysymyksiin vastattu
-
-### Hyvä 
-- ✅ OSA 1: Calculator ja StringHelper testit (vähintään 30 testiä)
-- ✅ OSA 2: ArrayHelper-projekti luotu ja aloitettu (vähintään 3 metodia)
-- ✅ Kattavat testit (normaalit + rajatapaukset)
-- ✅ Hyvät vastaukset teoriakysymyksiin
-
-### Kiitettävä 
-- ✅ OSA 1: Kaikki testit toteutettu kattavasti (38+ testiä)
-- ✅ OSA 2: ArrayHelper toteutettu täysin TDD:llä (kaikki 9 metodia)
-- ✅ Erinomaiset testit kaikille (normaalit + rajat + virheet)
-- ✅ Koodi on siistiä ja hyvin dokumentoitua
-- ✅ Erinomaiset vastaukset teoriakysymyksiin
-- ✅ Käytetty `[Theory]` ja `[InlineData]`
-
----
-
-## Hyödyllisiä linkkejä
-
-### Wiki-materiaalit
-- [Yksikkötestaus - Teoria](../../C%23/fin/04-Advanced/Unit-Testing.md)
-- [Yksikkötestaus - Esimerkit](../../C%23/fin/04-Advanced/Unit-Testing-Examples.md)
-
-### Ulkoiset resurssit
-- [xUnit dokumentaatio](https://xunit.net/)
-- [Microsoft: Unit testing](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
-
----
-
-## Tuki ja kysymykset
-
-Jos tarvitset apua:
-1. Tarkista ensin wiki-materiaalit
-2. Googlaa virheilmoituksia
-3. Kysy luokkakavereilta tai opettajalta
 
 
